@@ -1,6 +1,6 @@
 /* Basic styling */
 
-body {
+/* body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
   }
@@ -30,7 +30,7 @@ a {
 
 /* Responsive Navbar */
 
-.navbar {
+/* .navbar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -40,4 +40,4 @@ a {
 .navbar li a {
     display: block;
     padding: 15px 5px;
-}
+} */
