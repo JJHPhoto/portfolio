@@ -31,7 +31,6 @@ ul {
 
 #name {
     display: flex;
-    /* background-color: #31343d; */
     color: #92ccce;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     padding: 15px;
@@ -41,23 +40,10 @@ ul {
 
 #links {
     display: flex;
-    /* background-color: #31343d; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     width: 75%;
     justify-content:flex-end;
     font-size: 20px;
-    /* justify-content: space-around; */
-    /* justify-content: space-around;
-    flex-direction:row; */
-
-    /* width: 50%;
-    align-items: center;
-    padding-right: 60px; */
-    /* display:flex;
-    flex-wrap:wrap */
-    /* flex-direction:column;
-    justify-content:flex-end;
-     */
   }
 
 a {
@@ -70,13 +56,11 @@ a {
 
 /* Body styling */
 
-  
-  /* .body {
+.body {
      background-color: #1c1d21;
      color: #eeeef7;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
   }
-   */
 
 
 /* media query */
