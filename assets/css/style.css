@@ -51,9 +51,6 @@ a {
     text-decoration: none;
 }
 
-
-
-
 /* Body styling */
 
 .body {
@@ -65,25 +62,22 @@ a {
 
 /* media query */
 @media (min-width:375px){
-    .navbar{
+    .header{
     display:flex;
-    align-items:flex-start;
     flex-direction:column;
     }
 }
 
 @media (min-width:768px){
-    .navbar{
+    .header{
     display:flex;
-    align-items:flex-start;
     flex-direction:column;
     }
 }
 
 @media (min-width:1024px){
-    .navbar{
+    .header{
     display:flex;
-    align-items:flex-start;
     flex-direction:row;
     }
 }
