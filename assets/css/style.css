@@ -59,6 +59,20 @@ a {
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
   }
 
+.banner{
+    background-image: url("./../images/banner-fog-city.jpg");
+    background-repeat: no-repeat;
+    height: 256px;
+    background-size: cover;
+}
+
+.subtitle{
+    background-color: #92ccce;
+}
+
+li:hover {
+    font-size: larger;
+}
 
 /* media query */
 @media (min-width:375px){
