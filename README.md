@@ -10,20 +10,20 @@ I knew that I wanted to use flexbox to give myself options later on in the bootc
 
 
 ### 2. Beginning code.
-a) Set up the initial structure in HTML with basic styling in CSS.
-b) Added breakpoints for media queries.
+    a) Set up the initial structure in HTML with basic styling in CSS.
+    b) Added breakpoints for media queries.
 
 ### 3. Issues and further research.
-a) Worked on my “header” styling and ran into issues due to not understanding flex.
-b) Did more research and prepared questions for my tutor. 
+    a) Worked on my “header” styling and ran into issues due to not understanding flex.
+    b) Did more research and prepared questions for my tutor. 
 
 ### 4. Personalizing page
-a) Decided to color the webpage how I wanted to after seeing our instructor say that the colors given were not required to be the same. 
-b) Got my header looking how I wanted. 
-c) Worked on my banner image & subtitle with my tutor. I knew that I could use the same principles for the other images on the page. 
-d) Ran into issues in my "sections" due to still not having a good understanding of flex.
-e) Played around in Google dev tools till I figured out what I was doing wrong. 
-f) Added a poem for my “About Me” section that has been a favorite of mine since my best friend introduced it to me. 
+    a) Decided to color the webpage how I wanted to after seeing our instructor say that the colors given were not required to be the same. 
+    b) Got my header looking how I wanted. 
+    c) Worked on my banner image & subtitle with my tutor. I knew that I could use the same principles for the other images on the page. 
+    d) Ran into issues in my "sections" due to still not having a good understanding of flex.
+    e) Played around in Google dev tools till I figured out what I was doing wrong. 
+    f) Added a poem for my “About Me” section that has been a favorite of mine since my best friend introduced it to me. 
 
 ### 5. Finishing up.
-a) After running into style issues, decided to create classes for most of the elements in my page with the thinking that I’d consolidate the code after I finished. 
+    a) After running into style issues, decided to create classes for most of the elements in my page with the thinking that I’d consolidate the code after I finished. 
