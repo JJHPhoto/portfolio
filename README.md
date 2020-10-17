@@ -21,9 +21,10 @@ I knew that I wanted to use flexbox to give myself options later on in the bootc
     a) Decided to color the webpage how I wanted to after seeing our instructor say that the colors given were not required to be the same. 
     b) Got my header looking how I wanted. 
     c) Worked on my banner image & subtitle with my tutor. I knew that I could use the same principles for the other images on the page. 
-    d) Ran into issues in my "sections" due to still not having a good understanding of flex.
-    e) Played around in Google dev tools till I figured out what I was doing wrong. 
-    f) Added a poem for my “About Me” section that has been a favorite of mine since my best friend introduced it to me. 
+    d) Used a phrase in Mandarin that my best friend taught me. It means "Get better each day." 
+    e) Ran into issues in my "sections" due to still not having a good understanding of flex.
+    f) Played around in Google dev tools till I figured out what I was doing wrong. 
+    g) Added a poem for my “About Me” section that has been a favorite of mine since my best friend introduced it to me. 
 
 ### 5. Finishing up.
     a) After running into style issues, decided to create classes for most of the elements in my page with the thinking that I’d consolidate the code after I finished. 
