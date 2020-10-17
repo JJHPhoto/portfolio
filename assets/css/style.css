@@ -87,7 +87,7 @@ a {
 }
 
 .sections {
-    width: 15%;
+    width: 20%;
     padding: 30px;
     margin-right: 5px;
     display: flex;
@@ -102,9 +102,6 @@ a {
     margin-right: 5px;
     display: flex;
     justify-content: flex-end;
-    font-size: 50px;
-    text-align: end;
-    border-right: #3f2a59 10px solid;
 }
 
 .poem {
@@ -122,21 +119,22 @@ a {
 }
 
 .image1 {
-    width: 50%;
+    width: 375px;
     background-image: url("./../images/sm-image-1.jpg");
     background-size: cover;
     padding: 10px;
     border: #d92357 solid 5px;
-    height: 250px;
+    height: 180px;
+    margin-right: 20px;
 }
 
 .image2 {
-    width: 50%;
+    width: 375px;
     background-image: url("./../images/sm-image-2.jpg");
     background-size: cover;
     padding: 10px;
     border: #d92357 solid 5px;
-    height: 250px;
+    height: 180px;
 }
 
 .image3 {
