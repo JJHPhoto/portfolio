@@ -120,6 +120,33 @@ a {
     height: 250px;
 }
 
+.image2 {
+    width: 50%;
+    background-image: url("./../images/sm-image-2.jpg");
+    background-size: cover;
+    padding: 10px;
+    border: #d92357 solid 5px;
+    height: 250px;
+}
+
+.image3 {
+    width: 50%;
+    background-image: url("./../images/sm-image-3.jpg");
+    background-size: cover;
+    padding: 10px;
+    border: #d92357 solid 5px;
+    height: 250px;
+}
+
+.image4 {
+    width: 50%;
+    background-image: url("./../images/sm-image-4.jpg");
+    background-size: cover;
+    padding: 10px;
+    border: #d92357 solid 5px;
+    height: 250px;
+}
+
 .phototitle {
     font-size: 30px;
     background-color: #3f2a59;
