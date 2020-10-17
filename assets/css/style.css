@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #31343d;
+    background-color: #072552;
 }
 
 ul {
@@ -31,7 +31,7 @@ ul {
 
 #name {
     display: flex;
-    color: #92ccce;
+    color: #d92357;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     padding: 15px;
     width: 25%;
@@ -47,15 +47,15 @@ ul {
   }
 
 a {
-    color: #92ccce;
+    color: #d92357;
     text-decoration: none;
 }
 
 /* Body styling */
 
 .body {
-     background-color: #1c1d21;
-     color: #eeeef7;
+     background-color: #072552;
+     color: #d92357;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
   }
 
@@ -67,11 +67,11 @@ a {
 }
 
 .subtitle {
-    background-color: #1c1d21;
-    color: #92ccce;
+    background-color: #3f2a59;
+    color: #d92357;
     text-align: center;
     position: absolute;
-    width: 200px;
+    width: 100px;
     top: 300px;
     right: 40px;
     padding: 10px;
