@@ -14,6 +14,11 @@ ul {
     list-style-type: none;
 }
 
+a {
+    color: #d92357;
+    text-decoration: none;
+}
+
 /* Header styling */
 
 .header {
@@ -46,29 +51,7 @@ ul {
     font-size: 20px;
   }
 
-a {
-    color: #d92357;
-    text-decoration: none;
-}
-
-/* Body styling */
-
-.AboutMe {
-     color: #d92357;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-     display: flex;
-     justify-content: center;
-  }
-
-.Work {
-    color: #d92357;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
- }
-  
-
+/* Banner and subtitle */
 .banner{
     background-image: url("./../images/banner-fog-city.jpg");
     height: 256px;
@@ -86,6 +69,29 @@ a {
     padding: 10px;
 }
 
+/* Body styling */
+
+.AboutMe {
+     color: #d92357;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+     display: flex;
+     justify-content: center;
+  }
+
+.poem {
+    padding: 10px;
+    width: 50%;
+}
+
+.Work {
+    color: #d92357;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ }
+
+
 .sections {
     width: 20%;
     padding: 30px;
@@ -96,6 +102,33 @@ a {
     text-align: end;
     border-right: #3f2a59 10px solid;
     color: #d92357;
+}
+
+.ContactMe {
+    display: flex;
+}
+
+.contact{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 20px;
+    padding: 15px;
+}
+
+.phototitle {
+    font-size: 30px;
+    color: #d92357;
+    background-color: #3f2a59;
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+.photosub {
+    background-color: #3f2a59;
+    color: #d92357;
+    padding: 5px;
+    width: 200px;
+    height: 25px;
 }
 
 .firstrow {
@@ -112,10 +145,7 @@ a {
     justify-content: flex-end;
 }
 
-.poem {
-    padding: 10px;
-    width: 50%;
-}
+/* Image styling */
 
 .topimage {
     width: 50%;
@@ -162,33 +192,6 @@ a {
     padding: 10px;
     border: #d92357 solid 5px;
     height: 180px;
-}
-
-.phototitle {
-    font-size: 30px;
-    color: #d92357;
-    background-color: #3f2a59;
-    padding: 5px;
-    width: 200px;
-    height: 30px;
-}
-
-.photosub {
-    background-color: #3f2a59;
-    color: #d92357;
-    padding: 5px;
-    width: 200px;
-    height: 25px;
-}
-
-.ContactMe {
-    display: flex;
-}
-
-.contact{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    font-size: 20px;
-    padding: 15px;
 }
 
 
