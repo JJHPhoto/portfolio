@@ -95,9 +95,17 @@ a {
     font-size: 50px;
     text-align: end;
     border-right: #3f2a59 10px solid;
+    color: #d92357;
 }
 
 .firstrow {
+    padding: 15px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.secondrow {
     padding: 15px;
     margin-right: 5px;
     display: flex;
@@ -138,25 +146,27 @@ a {
 }
 
 .image3 {
-    width: 50%;
+    width: 375px;
     background-image: url("./../images/sm-image-3.jpg");
     background-size: cover;
     padding: 10px;
     border: #d92357 solid 5px;
-    height: 250px;
+    height: 180px;
+    margin-right: 20px;
 }
 
 .image4 {
-    width: 50%;
+    width: 375px;
     background-image: url("./../images/sm-image-4.jpg");
     background-size: cover;
     padding: 10px;
     border: #d92357 solid 5px;
-    height: 250px;
+    height: 180px;
 }
 
 .phototitle {
     font-size: 30px;
+    color: #d92357;
     background-color: #3f2a59;
     padding: 5px;
     width: 200px;
@@ -165,9 +175,20 @@ a {
 
 .photosub {
     background-color: #3f2a59;
+    color: #d92357;
     padding: 5px;
     width: 200px;
     height: 25px;
+}
+
+.ContactMe {
+    display: flex;
+}
+
+.contact{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 20px;
+    padding: 15px;
 }
 
 
