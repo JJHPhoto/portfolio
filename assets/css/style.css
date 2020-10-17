@@ -54,16 +54,23 @@ a {
 /* Body styling */
 
 .AboutMe {
-     /* background-color: #072552; */
      color: #d92357;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
      display: flex;
      justify-content: center;
   }
 
+.Work {
+    color: #d92357;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ }
+  
+
 .banner{
     background-image: url("./../images/banner-fog-city.jpg");
-    background-repeat: no-repeat;
     height: 256px;
     background-size: cover;
 }
@@ -80,7 +87,7 @@ a {
 }
 
 .sections {
-    width: 20px;
+    width: 20%;
     padding: 30px;
     margin-right: 5px;
     display: flex;
@@ -90,9 +97,34 @@ a {
     border-right: #3f2a59 10px solid;
 }
 
-.paragraphs {
-    margin-left: 10px;
+.poem {
+    padding: 10px;
+    width: 50%;
 }
+
+.topimage {
+    width: 50%;
+    background-image: url("./../images/topimage.jpg");
+    background-size: cover;
+    padding: 10px;
+    border: #d92357 solid 5px;
+}
+
+.phototitle {
+    font-size: 30px;
+    background-color: #3f2a59;
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+.photosub {
+    background-color: #3f2a59;
+    padding: 5px;
+    width: 200px;
+    height: 25px;
+}
+
 
 /* li:hover {
     font-size: larger;
