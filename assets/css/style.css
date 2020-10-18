@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #3f2a59 ;
+}
+
 /* Header styling */
 
 .header {
@@ -168,6 +172,10 @@ a {
     height: 250px;
 }
 
+.topimage:hover{
+    opacity: 0.3;
+}
+
 .image1 {
     width: 375px;
     background-image: url("./../images/sm-image-1.jpg");
@@ -178,6 +186,10 @@ a {
     margin-right: 20px;
 }
 
+.image1:hover{
+    opacity: 0.3;
+}
+
 .image2 {
     width: 375px;
     background-image: url("./../images/sm-image-2.jpg");
@@ -185,6 +197,10 @@ a {
     padding: 10px;
     border: #d92357 solid 5px;
     height: 180px;
+}
+
+.image2:hover{
+    opacity: 0.3;
 }
 
 .image3 {
@@ -197,6 +213,10 @@ a {
     margin-right: 20px;
 }
 
+.image3:hover{
+    opacity: 0.3;
+}
+
 .image4 {
     width: 375px;
     background-image: url("./../images/sm-image-4.jpg");
@@ -206,6 +226,9 @@ a {
     height: 180px;
 }
 
+.image4:hover{
+    opacity: 0.3;
+}
 
 /* li:hover {
     font-size: larger;
