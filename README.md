@@ -39,6 +39,15 @@ I knew that I wanted to use flexbox to give myself options later on in the bootc
     e) Linked my navbar to my sections. 
     f) Linked my "Work" images to sites I run or have portfolio work at. 
 
+### 6. Resources
+[How to Build a Responsive Navigation Bar with Flexbox by Anna Monus & Evato Tuts](https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535)
+
+[Flexbox CSS in 20 Minutes by Traversy Media](https://www.youtube.com/watch?v=JJSoEo8JSnc)
+
+[Codepen](https://codepen.io/trending)
+
+[Stackoverflow](https://stackoverflow.com/)
+
 ### Screenshot 
 
 ![Image](./assets/images/SS-Portfolio.jpg)
