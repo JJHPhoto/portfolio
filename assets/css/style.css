@@ -17,7 +17,10 @@ ul {
 a {   
     color: #d92357;
     text-decoration: none;
-    
+    }
+
+a:hover {
+    color: #3f2a59 ;
     }
       
 /* Header styling */
@@ -81,7 +84,7 @@ a {
     
 .poem {    
     padding: 10px;
-    width: 50%;
+    width: 37%;
     }
     
 .Work {    
@@ -172,6 +175,9 @@ img{
     border: #d92357 solid 5px;
     height: 250px;
     }
+.topimage:hover {
+    opacity: 0.3;
+    }
     
 .image1 {    
     width: 375px;
@@ -182,6 +188,10 @@ img{
     height: 180px;
     margin-right: 20px;
     }
+
+.image1:hover {
+    opacity: 0.3;
+    }
     
 .image2 {    
     width: 375px;
@@ -190,6 +200,9 @@ img{
     padding: 10px;
     border: #d92357 solid 5px;
     height: 180px;
+    }
+.image2:hover {
+    opacity: 0.3;
     }
     
 .image3 {    
@@ -201,6 +214,10 @@ img{
     height: 180px;
     margin-right: 20px;
     }
+
+.image3:hover {
+    opacity: 0.3;
+    }
     
 .image4 {    
     width: 375px;    
@@ -210,6 +227,10 @@ img{
     border: #d92357 solid 5px;
     height: 180px;
     }
+    
+ .image4:hover {
+    opacity: 0.3;
+    }   
     
 /* media query */
     
