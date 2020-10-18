@@ -33,3 +33,7 @@ I knew that I wanted to use flexbox to give myself options later on in the bootc
     d) Added hover effects to images and links.
     e) Linked my navbar to my sections. 
     f) Linked my "Work" images to sites I run or have portfolio work at. 
+
+### Screenshot 
+
+![Image](./assets/images/SS-Portfolio.jpg)
