@@ -3,100 +3,96 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-}
-
-body {
-    background-color: #072552;
-}
-
-ul {
-    list-style-type: none;
-}
-
-a {
+    margin: 0;  
+    }
+          
+body {  
+    background-color: #072552;   
+    }
+      
+ul {    
+    list-style-type: none;    
+    }
+        
+a {   
     color: #d92357;
     text-decoration: none;
-}
-
-a:hover {
-    color: #3f2a59 ;
-}
-
+    
+    }
+      
 /* Header styling */
-
-.header {
-      box-sizing: border-box;
-      display:flex;
-      padding: 20px;
-  }
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-    justify-content: flex-end;
-    padding: 15px;
-}
-
-#name {
-    display: flex;
-    color: #d92357;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    padding: 15px;
-    width: 25%;
-    font-size: 30px;
-  }
-
+    
+.header {    
+    box-sizing: border-box;   
+    display:flex;
+    padding: 20px;
+    }
+    
+.header div ul li {    
+    display: inline-block;    
+    margin-left: 25px;   
+    justify-content: flex-end;   
+    padding: 15px;   
+    }
+       
+#name {  
+    display: flex;   
+    color: #d92357;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    padding: 15px;   
+    width: 25%;    
+    font-size: 30px;    
+    }
+      
 #links {
     display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     width: 75%;
     justify-content:flex-end;
     font-size: 20px;
-  }
-
-/* Banner and subtitle */
-.banner{
+    }
+    
+/* Banner and subtitle */    
+.banner{    
     background-image: url("./../images/banner-fog-city.jpg");
-    height: 256px;
-    background-size: cover;
-}
-
-.subtitle {
-    background-color: #3f2a59;
-    color: #d92357;
+    height: 256px;    
+    background-size: cover;   
+    }
+        
+.subtitle {    
+    background-color: #3f2a59;    
+    color: #d92357;    
     text-align: center;
     position: absolute;
     width: 100px;
     top: 300px;
     right: 40px;
     padding: 10px;
-}
-
+    }
+    
 /* Body styling */
-
-.AboutMe {
-     color: #d92357;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-     display: flex;
-     justify-content: center;
-  }
-
-.poem {
+        
+.AboutMe {    
+    color: #d92357;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    display: flex;
+    justify-content: center;
+    }
+    
+.poem {    
     padding: 10px;
-    width: 38%;
-}
-
-.Work {
+    width: 50%;
+    }
+    
+.Work {    
     color: #d92357;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     display: flex;
     justify-content: center;
     margin-top: 10px;
- }
-
-
-.sections {
+    }
+    
+.sections {    
     width: 20%;
     padding: 30px;
     margin-right: 5px;
@@ -106,13 +102,13 @@ a:hover {
     text-align: end;
     border-right: #3f2a59 10px solid;
     color: #d92357;
-}
-
+    }
+    
 .ContactMe {
     display: flex;
-}
-
-.footer {
+    }
+    
+.footer {    
     width: 35%;
     padding: 30px;
     margin-right: 5px;
@@ -122,65 +118,57 @@ a:hover {
     text-align: end;
     border-right: #3f2a59 10px solid;
     color: #d92357;
-}
-
-.contact{
+    }
+    
+.contact{    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     font-size: 20px;
     padding: 40px;
-}
-
-.phototitle {
+    }
+    
+.phototitle {    
     font-size: 30px;
     color: #d92357;
     background-color: #3f2a59;
     padding: 5px;
     width: 200px;
     height: 30px;
-}
+    }
 
-.photosub {
+.photosub {    
     background-color: #3f2a59;
     color: #d92357;
-    padding: 5px;
+    padding: 5px;    
     width: 200px;
     height: 25px;
-}
-
-.firstrow {
+    }
+    
+.firstrow {    
     padding: 15px;
     margin-right: 98px;
     display: flex;
     justify-content: center;
-}
-
-.secondrow {
+    }
+    
+.secondrow {    
     padding: 15px;
     margin-right: 98px;
     display: flex;
     justify-content: center;
-}
-
+    }
+    
 /* Image styling */
-
-img {
-    border: 5px solid #d92357;
-}
-
-.topimage {
+    
+.topimage {    
     width: 50%;
     background-image: url("./../images/topimage.jpg");
     background-size: cover;
     padding: 10px;
     border: #d92357 solid 5px;
     height: 250px;
-}
-
-.topimage:hover{
-    opacity: 0.3;
-}
-
-.image1 {
+    }
+    
+.image1 {    
     width: 375px;
     background-image: url("./../images/sm-image-1.jpg");
     background-size: cover;
@@ -188,26 +176,18 @@ img {
     border: #d92357 solid 5px;
     height: 180px;
     margin-right: 20px;
-}
-
-.image1:hover{
-    opacity: 0.3;
-}
-
-.image2 {
+    }
+    
+.image2 {    
     width: 375px;
     background-image: url("./../images/sm-image-2.jpg");
     background-size: cover;
     padding: 10px;
     border: #d92357 solid 5px;
     height: 180px;
-}
-
-.image2:hover{
-    opacity: 0.3;
-}
-
-.image3 {
+    }
+    
+.image3 {    
     width: 375px;
     background-image: url("./../images/sm-image-3.jpg");
     background-size: cover;
@@ -215,43 +195,36 @@ img {
     border: #d92357 solid 5px;
     height: 180px;
     margin-right: 20px;
-}
-
-.image3:hover{
-    opacity: 0.3;
-}
-
-.image4 {
-    width: 375px;
+    }
+    
+.image4 {    
+    width: 375px;    
     background-image: url("./../images/sm-image-4.jpg");
     background-size: cover;
     padding: 10px;
     border: #d92357 solid 5px;
     height: 180px;
-}
-
-.image4:hover{
-    opacity: 0.3;
-}
-
+    }
+    
 /* media query */
-@media (min-width:375px){
+    
+@media (min-width:375px){    
     .header{
     display:flex;
     flex-direction:column;
     }
-}
+    }
 
 @media (min-width:768px){
     .header{
     display:flex;
     flex-direction:column;
     }
-}
-
-@media (min-width:1024px){
+    }
+    
+@media (min-width:1024px){    
     .header{
     display:flex;
     flex-direction:row;
     }
-}
+    }
