@@ -84,7 +84,7 @@ a:hover {
 
 .poem {
     padding: 10px;
-    width: 50%;
+    width: 38%;
 }
 
 .Work {
@@ -163,6 +163,10 @@ a:hover {
 
 /* Image styling */
 
+img {
+    border: 5px solid #d92357;
+}
+
 .topimage {
     width: 50%;
     background-image: url("./../images/topimage.jpg");
@@ -229,10 +233,6 @@ a:hover {
 .image4:hover{
     opacity: 0.3;
 }
-
-/* li:hover {
-    font-size: larger;
-} */
 
 /* media query */
 @media (min-width:375px){
