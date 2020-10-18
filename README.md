@@ -30,4 +30,5 @@ I knew that I wanted to use flexbox to give myself options later on in the bootc
     a) After running into style issues, decided to create classes for most of the elements in my page with the thinking that I’d consolidate the code after I finished. 
     b) Ran into more issues positioning my sections, so I created separate sections for each row of photos. 
     c) Created my "Footer" with relevant links.
-    d) Added hover effects to images and links. 
+    d) Added hover effects to images and links.
+    e) Linked my navbar to my sections. 
