@@ -158,6 +158,11 @@ a {
     }
     
 /* Image styling */
+
+img{
+    border: #d92357 solid 5px;
+    margin: 10px;
+}
     
 .topimage {    
     width: 50%;
