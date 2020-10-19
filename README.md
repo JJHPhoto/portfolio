@@ -39,7 +39,18 @@ I knew that I wanted to use flexbox to give myself options later on in the bootc
     e) Linked my navbar to my sections. 
     f) Linked my "Work" images to sites I run or have portfolio work at. 
 
-### 6. Resources
+### 6. Re-writing site
+    a) I was really not happy with how my site "worked." So, I re-wrote my HTML & CSS with better structure and labeling. 
+    b) This was done after I submitted my homework, so I understand if that marks against me. I was very disappointed with myself and was unsatisfied with the work I put forward.
+    c) I dug into the code shared by my classmates and re-wrote my code with their code to compare to. 
+
+### 7. Resources
+[Macz Norton's site](https://macz-norton.github.io/responsive-portfolio/)
+
+[Abdulhakeem Dahir's site](https://abdulhakeemdahir.github.io/Individual-Responsive-Online-Portfolio/)
+
+[Hasan Utku's site](https://hhutku.github.io/portfolio/#about-me)
+
 [How to Build a Responsive Navigation Bar with Flexbox by Anna Monus & Evato Tuts](https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535)
 
 [Flexbox CSS in 20 Minutes by Traversy Media](https://www.youtube.com/watch?v=JJSoEo8JSnc)
