@@ -61,4 +61,4 @@ I knew that I wanted to use flexbox to give myself options later on in the bootc
 
 ### Screenshot 
 
-![Image](./assets/images/SS-Portfolio.jpg)
+![Image](./assets/images/ss-portfolio-2.jpg)
