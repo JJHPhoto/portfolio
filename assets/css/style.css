@@ -61,7 +61,7 @@ a:hover {
     /* flex-direction: row-reverse; */
 }
 
-subtitle {
+.subtitle {
     background-color: #3f2a59;
     color: #d92357;
     text-align: center;
