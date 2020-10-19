@@ -105,7 +105,6 @@ a:hover {
 }
 
 .aboutme img {
-    flex: 1;
     border: #d92357 5px solid;
     width: auto;
     object-fit: cover;
