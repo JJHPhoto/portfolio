@@ -15,33 +15,37 @@
   </head>
 
   <body>
-    <!--Header-->
-    <div class="header">
-      <div class="name">Joshua J Haller</div>
-      <!--Navbar-->
-      <div class="navbar">
-        <ul>
-          <li>
-            <a href="#AM">About Me</a>
-          </li>
-          <li>
-            <a href="#WS">Work</a>
-          </li>
-          <li>
-            <a href="#CM">Contact Me</a>
-          </li>
-          <li>
-            <a href="https://www.joshuajhaller.com/">Resume</a>
-          </li>
-        </ul>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Joshua J Haller</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#AM"
+            >About Me <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-link active" href="#WS">Work</a>
+          <a class="nav-link active" href="#CM">Contact Me</a>
+          <!--Need to create download link?-->
+          <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"
+            >Resume</a
+          >
+        </div>
       </div>
-    </div>
-
-    <!--Banner & Subtitle-->
-    <div class="banner">
-      <div class="subtitle">
-        <h3>一天比一天</h3>
-      </div>
+    </nav>
+    <!--Jumbotron-->
+    <div class="jumbotron">
+      <p class="title">一天比一天</p>
     </div>
 
     <!--Body Sections-->
