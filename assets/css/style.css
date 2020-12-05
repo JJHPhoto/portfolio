@@ -16,11 +16,11 @@
 .title {
   background-color: #3f2a59;
   color: #d92357;
-  text-align: center;
   width: 100px;
   top: 300px;
-  right: 40px;
+  /* right: 40px; */
   padding: 10px;
+  /* margin-left: 930px; */
 }
 
 /* redo */
@@ -224,7 +224,7 @@ a:hover {
   display: flex;
 }
 
-.footer {
+/* .footer {
   display: inline;
   flex: 3;
   padding: 3px;
@@ -239,9 +239,9 @@ a:hover {
     margin-right: 3px;
 } */
 
-.contactme li {
+/* .contactme li {
   width: 20%;
   /* align-self: center; */
-  text-align: center;
+/* text-align: center;
   padding: 10px;
-}
+} */

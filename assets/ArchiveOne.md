@@ -8,18 +8,16 @@ This week we were assigned a portfolio page that we would have to build from scr
 
 ## My Workflow
 
-<br>
-
-### 1. Research.
+### 1. Research
 
 I knew that I wanted to use flexbox to give myself options later on in the bootcamp. I dove into a few flexbox tutorials to try and get a feel for how that’d work. I also used Codepen to try and see what the site would look like before I began coding in VS. I also inspcected pages my classmates were sharing that they had done.
 
-### 2. Beginning code.
+### 2. Beginning code
 
     a) Set up the initial structure in HTML with basic styling in CSS.
     b) Added breakpoints for media queries.
 
-### 3. Issues and further research.
+### 3. Issues and further research
 
     a) Worked on my “header” styling and ran into issues due to not understanding flex.
     b) Did more research and prepared questions for my tutor.
@@ -37,7 +35,7 @@ I knew that I wanted to use flexbox to give myself options later on in the bootc
     g) Added a poem for my “About Me” section that has been a favorite of mine since my best friend
     introduced it to me.
 
-### 5. Finishing up.
+### 5. Finishing up
 
     a) After running into style issues, decided to create classes for most of the elements in my page
     with the thinking that I’d consolidate the code after I finished.
