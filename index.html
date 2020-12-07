@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
+    <title>Joshua J Haller's Web Dev Portfolio</title>
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link
@@ -16,188 +16,122 @@
 
   <body>
     <div class="container -sm">
-      <!--navbar container-->
-      <div class="container -sm">
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Joshua J Haller</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-              <a class="nav-link active" href="#AM"
-                >About Me <span class="sr-only">(current)</span></a
-              >
-              <a class="nav-link active" href="#WS">Work</a>
-              <a class="nav-link active" href="#CM">Contact Me</a>
-              <!--Need to create download link?-->
-              <a
-                class="nav-link active"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Resume</a
-              >
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Joshua J Haller</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="#AM">About Me</a>
+            <a class="nav-link active" href="#WS">Work</a>
+            <a class="nav-link active" href="#CM">Contact Me</a>
+            <!--Need to create download link?-->
+            <a class="nav-link active" href="#">Resume</a>
+          </div>
+        </div>
+      </nav>
+
+      <!--Jumbotron-->
+      <div class="jumbotron">
+        <p class="title">一天比一天</p>
+      </div>
+      <!--About Me-->
+      <div class="card mb-3" style="max-width: 540px" id="AM">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img
+              src="./assets/images/BioPic-horizontal.jpg"
+              class="card-img"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
             </div>
           </div>
-        </nav>
-        <!--Jumbotron-->
-        <div class="jumbotron">
-          <p class="title">一天比一天</p>
         </div>
       </div>
-
-      <!--Body Sections-->
-      <!--body container-->
-      <div class="container -sm">
-        <!--About Me Section-->
-        <section id="AM" class="aboutme">
-          <div class="section">
-            <h1>About Me</h1>
-          </div>
-          <div class="boxes">
-            <img src="./assets/images/BioPic.jpg" />
-            <div class="poem">
-              <p>"Into my heart an air that kills.</p>
-              <p>From yon far country blows;</p>
-              <p>What are those blue remembered hills,</p>
-              <p>What spires, what farms are those?</p>
-              <p>That is the land of lost content,</p>
-              <p>I see it shining plain,</p>
-              <p>The happy highways where I went</p>
-              <p>And cannot come again.</p>
-              <p>- A.E. Housman</p>
-            </div>
-          </div>
-        </section>
-
-        <!--Work Section-->
-        <section id="WS" class="work">
-          <div class="section">
-            <h1>Work</h1>
-          </div>
-          <div class="boxes">
-            <div class="mainport">
-              <a
-                href="https://www.patreon.com/joshuahallerphotography/"
-                target="_blank"
-              >
-                <div class="port1">
-                  <div class="project">
-                    <h2>Surf Report</h2>
-                    <p>MERN Stack</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="subport1">
-              <a
-                href="https://joshua-j-haller-photography.myshopify.com/"
-                target="_blank"
-              >
-                <div class="port2">
-                  <div class="project">
-                    <h2>LED Wall</h2>
-                    <p>Node/IoT</p>
-                  </div>
-                </div>
-              </a>
-              <a
-                href="https://jjhphotography.visualsociety.com/"
-                target="_blank"
-              >
-                <div class="port3">
-                  <div class="project">
-                    <h2>Pastel Panels</h2>
-                    <p>MERN Stack</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="subport2">
-              <a href="http://www.thoughtsarchive.com/" target="_blank">
-                <div class="port4">
-                  <div class="project">
-                    <h2>Calculator</h2>
-                    <p>React/JavaScript/CSS</p>
-                  </div>
-                </div>
-              </a>
-              <a
-                href="https://px3.fr/winners/hm/2020/1-92856-20/"
-                target="_blank"
-              >
-                <div class="port5">
-                  <div class="project">
-                    <h2>Run Buddy</h2>
-                    <p>HTML/CSS</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </section>
-
-        <div class="container -sm">
-          <!--Contact Me Footer-->
-          <section id="CM" class="contactme">
-            <div class="section">
-              <h1>Contact Me</h1>
-            </div>
-            <div class="footer">
-              <ul>
-                <li>
-                  <a href="mailto:phone@joshuajhaller.com">Email</a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/joshuajhaller/"
-                    target="_blank"
-                    >LinkedIn</a
-                  >
-                </li>
-                <li>
-                  <a href="https://www.behance.net/joshuahaller" target="_blank"
-                    >Behance</a
-                  >
-                </li>
-                <li>
-                  <a href="https://twitter.com/jpixtwit" target="_blank"
-                    >Twitter</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/joshuajohnhaller/"
-                    target="_blank"
-                    >Instagram</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </section>
+      <!--Project 1-->
+      <div class="card mb-3" id="WS">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Project 1</h5>
+          <p class="card-text">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <a href="#" class="btn btn-primary">Lite Site</a>
+          <a href="#" class="btn btn-primary">Repo</a>
         </div>
       </div>
-      <script
-        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"
-      ></script>
-      <script src="assets/js/script.js"></script>
     </div>
+    <!--Two extra projects-->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          1 of 2
+          <a href="#" class="btn btn-primary">Lite Site</a>
+          <a href="#" class="btn btn-primary">Repo</a>
+        </div>
+        <div class="col">
+          2 of 2
+          <a href="#" class="btn btn-primary">Lite Site</a>
+          <a href="#" class="btn btn-primary">Repo</a>
+        </div>
+      </div>
+      <!--Footer -->
+      <div class="container">
+        <div class="row" id="CM">
+          <div class="col-4">
+            <h1 class="card-title">Contact Me</h1>
+          </div>
+          <div class="col-8">
+            <a href="mailto:phone@joshuajhaller.com" class="btn btn-info"
+              >Email</a
+            >
+            <a
+              href="https://www.linkedin.com/in/joshuajhaller/"
+              class="btn btn-info"
+              >LinkedIn</a
+            >
+            <a href="https://github.com/JJHPhoto" class="btn btn-info"
+              >Github</a
+            >
+            <a href="https://www.behance.net/joshuahaller" class="btn btn-info"
+              >Behance</a
+            >
+            <a href="https://twitter.com/jpixtwit" class="btn btn-info"
+              >Twitter</a
+            >
+          </div>
+        </div>
+      </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

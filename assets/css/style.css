@@ -12,236 +12,25 @@
   height: 100%;
 }
 
-/*add a position? */
+/* My Chinese Quote */
 .title {
   background-color: #3f2a59;
   color: #d92357;
   width: 100px;
-  top: 300px;
-  /* right: 40px; */
   padding: 10px;
-  /* margin-left: 930px; */
 }
 
-/* redo */
-
-/* Link style */
-a {
-  color: #d92357;
-  text-decoration: none;
+/* Added some line height to the text in my card. */
+.card {
+  line-height: 1.5em;
 }
 
-a:hover {
-  color: #3f2a59;
-}
-/* Header style */
-.header {
-  display: flex;
-  padding: 20px;
-}
-
-.header div ul li {
-  display: inline-block;
-  margin-left: 25px;
-  justify-content: flex-end;
-  padding: 15px;
-}
-
-.name {
-  display: flex;
-  color: #d92357;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding: 15px;
-  width: 25%;
-  font-size: 30px;
-}
-
+/* Styles for my navbar */
 .navbar {
-  display: flex;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  width: 75%;
-  justify-content: flex-end;
   font-size: 20px;
 }
 
-/* Banner and subtitle style*/
-.banner {
-  background-image: url("./../images/banner-fog-city.jpg");
-  background-size: cover;
-  height: 250px;
-  display: flex;
-  /* flex-direction: row-reverse; */
-}
-
-/* Body Sections */
-/* "Section" Style*/
-.section {
-  flex: 1;
-  text-align: right;
-  border-right: #3f2a59 10px solid;
-  color: #d92357;
-  font-size: 30px;
-  vertical-align: top;
-  padding: 10px;
-  margin-right: 20px;
-}
-
-.boxes {
-  /* display: flex; */
-  flex: 3;
-  padding: 5px;
-  margin: 1px;
-}
-
-.project {
-  background-color: #3f2a59;
-  padding: 5px;
-  align-self: flex-end;
-}
-
-/* About Me Section*/
-.aboutme {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.aboutme img {
-  border: #d92357 5px solid;
-  width: auto;
-  object-fit: cover;
-  margin-left: 3px;
-}
-
-.aboutme .boxes {
-  display: flex;
-}
-
-.poem {
-  color: #d92357;
-  margin: 10px;
-  flex: 1;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding: 10px;
-}
-
-/* Work Section */
-.work {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.work a:hover {
-  opacity: 0.3;
-}
-
-.mainport {
-  display: flex;
-  margin: 5px;
-}
-
-.mainport a {
-  flex: 1;
-}
-
-.port1 {
-  border: #d92357 solid 5px;
-  padding: 5px;
-  background-image: url(../images/topimage.jpg);
-  background-size: cover;
-  height: 180px;
-  width: 100%;
-  display: flex;
-}
-
-.subport1 {
-  display: flex;
-  margin: 3px;
-}
-
-.subport1 a {
-  flex: 1;
-}
-
-.port2 {
-  border: #d92357 solid 3px;
-  padding: 3px;
-  background-image: url(../images/sm-image-1.jpg);
-  background-size: cover;
-  margin-right: 3px;
-  flex: 1;
-  display: flex;
-  height: 180px;
-  /* width: 50%; */
-}
-
-.port3 {
-  border: #d92357 solid 3px;
-  padding: 3px;
-  background-image: url(../images/sm-image-2.jpg);
-  background-size: cover;
-  margin-right: 3px;
-  flex: 1;
-  display: flex;
-  height: 180px;
-  /* width: 50%; */
-}
-
-.subport2 {
-  display: flex;
-  margin: 3px;
-}
-
-.subport2 a {
-  flex: 1;
-}
-
-.port4 {
-  border: #d92357 solid 3px;
-  padding: 3px;
-  background-image: url(../images/sm-image-3.jpg);
-  background-size: cover;
-  margin-right: 3px;
-  flex: 1;
-  display: flex;
-  height: 180px;
-  /* width: 50%; */
-}
-
-.port5 {
-  border: #d92357 solid 3px;
-  padding: 3px;
-  background-image: url(../images/sm-image-4.jpg);
-  background-size: cover;
-  margin-right: 3px;
-  flex: 1;
-  display: flex;
-  height: 180px;
-  /* width: 50%; */
-}
-
-/* Footer Style */
-.contactme {
-  display: flex;
-}
-
-/* .footer {
-  display: inline;
-  flex: 3;
-  padding: 3px;
-}
-
-.contactme ul {
-  display: flex;
-  align-items: center;
-}
-
-/* .contactme a {
-    margin-right: 3px;
-} */
-
-/* .contactme li {
-  width: 20%;
-  /* align-self: center; */
-/* text-align: center;
-  padding: 10px;
-} */
+/* redo */
+/* Hover on links 
+Line height to links */
