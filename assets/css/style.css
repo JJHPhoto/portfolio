@@ -20,17 +20,30 @@
   padding: 10px;
 }
 
-/* Added some line height to the text in my card. */
-.card {
-  line-height: 1.5em;
-}
-
 /* Styles for my navbar */
 .navbar {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
 
+/* Added some margin at the bottom so everything isn't so bunched together. */
+.row {
+  margin-bottom: 1.5em;
+}
+
+/* Adding style to my text */
+.description {
+  margin-top: 1em;
+  color: blue
+}
+
+#minorProjects {
+  line-height: 2.5em;
+}
+
+.btn {
+  color: #d92357;
+}
+
 /* redo */
 /* Hover on links 
-Line height to links */

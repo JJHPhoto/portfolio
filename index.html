@@ -32,9 +32,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-link active" href="#AM">About Me</a>
-            <a class="nav-link active" href="#WS">Work</a>
-            <a class="nav-link active" href="#CM">Contact Me</a>
+            <a class="nav-link active" href="#about">About Me</a>
+            <a class="nav-link active" href="#work">Work</a>
+            <a class="nav-link active" href="#contact">Contact Me</a>
             <!--Need to create download link?-->
             <a class="nav-link active" href="#">Resume</a>
           </div>
@@ -45,93 +45,93 @@
       <div class="jumbotron">
         <p class="title">一天比一天</p>
       </div>
+
+      <div class="container">
       <!--About Me-->
-      <div class="card mb-3" style="max-width: 540px" id="AM">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img
-              src="./assets/images/BioPic-horizontal.jpg"
-              class="card-img"
-              alt="..."
-            />
+        <div class="row">
+          <div class="col-sm" id="about">
+            <div class="text-center">
+              <img src="./assets/images/BioPic.jpg" alt="..." class="rounded">
+            </div>
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
+          <div class="col">
+            <p class="description">I'm going to have my bio here about how amazing I'm going to be. </p>
+          </div>
+        </div>  
+      <!--Project 1-->
+        <div class="row">
+          <div class="col-sm" id="work">
+            <div class="text-center">
+              <img src="./assets/images/POD13.jpg" alt="..." class="img-thumbnail">
+            </div>  
+          </div>
+          <div class="col">
+            <h3 class="text-center"> Project 1: <br> Celebrity Checker</h3>
+            <p class="description">Some text here for my project 1 stuff. I feel like I want some spacing here but I don't quite want a paragraph. How do I wrap this is something I can target? Divs?</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-info">Lite Site</a>
+              <a href="#" class="btn btn-info">Repo</a>
+            </div>
+          </div>
+        </div>   
+        <!--Two extra projects-->
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="./assets/images/banner-fog-city.jpg" alt="..." class="img-fluid">
+              <p class="description"> Project text here. </p>
+              <div class="text-center" id="minorProjects">
+                <a href="#" class="btn btn-info">Lite Site</a>
+                <a href="#" class="btn btn-info">Repo</a>
+              </div>
+            </div>
+            <div class="col">
+              <img src="./assets/images/banner-fog-city.jpg" alt="..." class="img-fluid">
+              <p class="description">2 of 2</p>
+              <div class="text-center" id="minorProjects">
+                <a href="#" class="btn btn-info">Lite Site</a>
+                <a href="#" class="btn btn-info">Repo</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!--Project 1-->
-      <div class="card mb-3" id="WS">
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Project 1</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </p>
-          <a href="#" class="btn btn-primary">Lite Site</a>
-          <a href="#" class="btn btn-primary">Repo</a>
-        </div>
-      </div>
-    </div>
-    <!--Two extra projects-->
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          1 of 2
-          <a href="#" class="btn btn-primary">Lite Site</a>
-          <a href="#" class="btn btn-primary">Repo</a>
-        </div>
-        <div class="col">
-          2 of 2
-          <a href="#" class="btn btn-primary">Lite Site</a>
-          <a href="#" class="btn btn-primary">Repo</a>
-        </div>
-      </div>
-      <!--Footer -->
-      <div class="container">
-        <div class="row" id="CM">
-          <div class="col-4">
-            <h1 class="card-title">Contact Me</h1>
+        <!--Footer -->
+        <div class="container">
+          <div class="col" id="contact">
+            <h3 class="text-center">Contact Me</h3>
           </div>
-          <div class="col-8">
-            <a href="mailto:phone@joshuajhaller.com" class="btn btn-info"
-              >Email</a
-            >
-            <a
-              href="https://www.linkedin.com/in/joshuajhaller/"
-              class="btn btn-info"
-              >LinkedIn</a
-            >
-            <a href="https://github.com/JJHPhoto" class="btn btn-info"
-              >Github</a
-            >
-            <a href="https://www.behance.net/joshuahaller" class="btn btn-info"
-              >Behance</a
-            >
-            <a href="https://twitter.com/jpixtwit" class="btn btn-info"
-              >Twitter</a
-            >
-          </div>
+          <div class="col">
+            <div id="minorProjects">
+              <a href="mailto:phone@joshuajhaller.com" class="btn btn-info"
+                >Email</a
+              >
+              <a
+                href="https://www.linkedin.com/in/joshuajhaller/"
+                class="btn btn-info"
+                >LinkedIn</a
+              >
+              <a href="https://github.com/JJHPhoto" class="btn btn-info"
+                >Github</a
+              >
+              <a href="https://www.behance.net/joshuahaller" class="btn btn-info"
+                >Behance</a
+              >
+              <a href="https://twitter.com/jpixtwit" class="btn btn-info"
+                >Twitter</a
+              >
+            </div>
+          </div>  
         </div>
-      </div>
+
+    <!--Script links. No JS, but there for future use.-->    
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
