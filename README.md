@@ -10,8 +10,12 @@ Getting the navbar and jumbotron to work was fairly simple. I thought that the r
 
 I also made the mistake of not being in mobile mode when I was viewing my code in the browser. I really need to start from that position and see what needs to be changed once I switch to desktop mode. To quote the phrase that I've kept on the website: "一天比一天". Better today than yesterday. Which I know is true, its just sometimes hard to see.
 
-- Project Links
-- Contact details
+The next thing I did was select two projects that I had done well in. One of the projects doesn't have a live link and I made a note of that.....
+
+I chose to not put my phone number on my portfolio. I am very hesitant to post my phone number in public places. If that is an issue, I am willing to be convinced otherwise. However, I'm already getting a fair number of fake calls and texts. I'd rather not add to the list.
+
+The last bit was to make sure my Github and LinkedIn were....
+
 - Better Resolution for header image
 
 ## Resources
