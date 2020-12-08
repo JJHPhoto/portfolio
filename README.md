@@ -16,7 +16,31 @@ I chose to not put my phone number on my portfolio. I am very hesitant to post m
 
 The last bit was to make sure my Github and LinkedIn were....
 
-- Better Resolution for header image
+- Downloadabl PDF of resume
+- Screenshots of deployed application
+- Change header image & title font & background color
+
+## Github updates
+
+- Photo
+- Bio
+- Link to deployed portfolio
+- Pinned projects have
+  - live links
+  - Explanation of each app
+  - Licenses
+  - contact for myself or any collaborators
+
+## Update Resume (is this my portfolio?)
+
+- for the job I want (melding both photo & web dev.)
+- name, phone number (sigh), professional email address, links to linkedIn port & github
+- technical skills section with all programing languages and technologies (software?) listed
+
+## LinkedIn Updates
+
+- bio
+- Github and port links
 
 ## Resources
 
