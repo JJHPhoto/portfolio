@@ -45,3 +45,4 @@ The last bit was to make sure my Github and LinkedIn were....
 ## Resources
 
 [Boostrap](https://getbootstrap.com/)
+[Clickup](https://clickup.com/?noRedirect=true)
