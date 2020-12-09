@@ -1,5 +1,7 @@
 # Joshua Haller's Web Development Portfolio
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 I have archived the previous README file [here](./assets/ArchiveOne.md). I wanted to preserve this for reference. Feel free to check it out if you are interested.
 
 ## Update 2.0
