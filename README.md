@@ -24,14 +24,7 @@ The last bit was to make sure my Github and LinkedIn were....
 
 ## Github updates
 
-- Photo
 - Bio
-- Link to deployed portfolio
-- Pinned projects have
-  - live links
-  - Explanation of each app
-  - Licenses
-  - contact for myself or any collaborators
 
 ## Update Resume (is this my portfolio?)
 
