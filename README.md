@@ -1,4 +1,4 @@
-# Joshua Haller's Web Development Portfolio
+# [Joshua Haller's Web Development Portfolio](https://jjhphoto.github.io/portfolio/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -47,4 +47,5 @@ The last bit was to make sure my Github and LinkedIn were....
 ## Resources
 
 [Boostrap](https://getbootstrap.com/)
+
 [Clickup](https://clickup.com/?noRedirect=true)
