@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Joshua J Haller's Web Dev Portfolio</title>
+    <title>Joshua Haller's Web Dev Port</title>
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link
@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <div class="container -sm">
+    <div class="container-sm">
       <!--Navbar-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Joshua J Haller</a>
@@ -46,78 +46,85 @@
         <p class="title">一天比一天</p>
       </div>
 
-      <div class="container">
+      <div class="container-sm">
       <!--About Me-->
         <div class="row">
-          <div class="col-sm" id="about">
-            <div class="text-center">
-              <img src="./assets/images/BioPic.jpg" alt="..." class="rounded">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="./assets/images/BioPic.jpg" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title" id="about">About Me</h5>
+                  <p class="card-text">As a self taught photographer and graphic designer, I plan to use this coding certificate program to make myself more competitive in the tech industry. I fell in love with technology the first time I used Adobe’s Indesign in 2003 and haven’t looked back. Along the way, I picked up more skills that interested me like photography, graphic design, live audio mixing and some basic web design. I had always found coding to be interesting but wasn’t sure where to begin.</p>
+                  <p>
+                  Hearing about the full stack certificate program from the University of Washington felt like perfect timing. This was the next skill I wanted to learn and it has been a rush.  Having these additional tools to work with has made me see so many new opportunities. I’m looking forward to exploring those too. 
+                    </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col">
-            <p class="description">Hi! My name is Joshua Haller and I'm currently a Web Development student. Focusing on Full Stack. I'm going to have my bio here about how amazing I'm going to be. </p>
-          </div>
-        </div>  
       <!--Project 1-->
         <div class="row">
-          <div class="col-sm" id="work">
-            <div class="text-center">
-              <img src="./assets/images/POD13.jpg" alt="..." class="img-rounded">
-            </div>  
-          </div>
-          <div class="col">
-            <h3 class="text-center"> Project 1: <br> Celebrity Checker</h3>
-            <p class="description">This project was the first team project I was part of. Due to my organization skills, our team asked me to be the team manager. It was really neat to see my skills transfer from previous jobs to organizing a web development team. <br> We decided to use two APIs to play off each other. We used the <a href="http://www.omdbapi.com/">OMDB</a> as our base and then connected it to <a href="https://nationalize.io/">Nationalize.io</a> 
-            <!--Put into card?-->
-            <br> My team members were: <br>
-            <h4>Backend Team</h4> 
-            <br>
-            <a href="https://github.com/kgo87" class="btn btn-info">Kat Gomozova</a>
-            <a href="https://github.com/maxlechner" class="btn btn-info">Max Lechner</a> 
-            <br>
-            <h4>Frontend Team</h4> 
-            <br>
-            <a href="https://github.com/JJHPhoto" class="btn btn-info">Joshua Haller</a> 
-            <a href="https://github.com/lk9988" class="btn btn-info">Lana Kim</a>
-            <a href="https://github.com/rattanakleng" class="btn btn-info">Rattanak Leng</a> 
-           </p>
-            <div class="text-center">
-              <a href="https://jjhphoto.github.io/celebchecker/" class="btn btn-info">Live Site</a>
-              <a href="https://github.com/JJHPhoto/celebchecker" class="btn btn-info">Repo</a>
+            <div class="col">
+              <div class="card border-info">
+                <img src="./assets/images/pod13-celebnat.jpg" class="img-fluid" alt="...">
+                <div class="card-body">
+                  <p class="description">This project was the first team project I was part of. Due to my organization skills, our team asked me to be the team manager. It was really neat to see my skills transfer from previous jobs to organizing a web development team. <br> We decided to use two APIs to play off each other. We used the <a href="http://www.omdbapi.com/">OMDB</a> as our base and then connected it to <a href="https://nationalize.io/">Nationalize.io</a>
+            <div class="row">
+              <div class="col">
+                  <h4>Backend Team</h4> 
+                  <br>
+                  <a href="https://github.com/kgo87" class="btn btn-info">Kat Gomozova</a>
+                  <a href="https://github.com/maxlechner" class="btn btn-info">Max Lechner</a> 
+                  <br>
+                  <br>
+                  <h4>Project Links</h4>
+                  <a href="https://jjhphoto.github.io/celebchecker/" class="btn btn-info">Live Site</a>
+                  <a href="https://github.com/JJHPhoto/celebchecker" class="btn btn-info">Repo</a>
+              </div>    
+              <div class="col">
+                  <h4>Frontend Team</h4> 
+                  <br>
+                  <a href="https://github.com/JJHPhoto" class="btn btn-info">Joshua Haller</a> 
+                  <a href="https://github.com/lk9988" class="btn btn-info">Lana Kim</a>
+                  <a href="https://github.com/rattanakleng" class="btn btn-info">Rattanak Leng</a> 
+                 </p>  
+                </div>
+              </div>
             </div>
           </div>
-        </div>   
-        <!--Two extra projects-->
-        <!--Give each project its own row? Rather not have them side by side.-->
-        <div class="container">
-          <div class="row">
+
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+
             <div class="col">
-              <img src="./assets/images/writeandread.jpg" alt="..." class="img-fluid">
-              <p class="description"> Write and Read.
-              <br>
-              This was a fun application to write. At first, I was very lost but it was really fun to reach the point where it clicked and then made sense. That point was learning how to write a string template literal. Once that made sense to me, I was able to make it come together. Please note, this application does not have a live link. It is an application that runs in your terminal, not on a browser.  
-             </p>
-              <div class="text-center" id="minorProjects">
-                <a href="https://github.com/JJHPhoto/writeandread" class="btn btn-info">Repo</a>
+              <div class="card">
+                <img src="./assets/images/writeandread-banner.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Write and Read</h5>
+                  <p class="card-text">This was a fun application to write. At first, I was very lost but it was really fun to reach the point where it clicked and then made sense. That point was learning how to write a string template literal. Once that made sense to me, I was able to make it come together.</p>
+                  <p> Please note, this application does not have a live link. It is an application that runs in your terminal, not on a browser.</p>
+                  <h4>Project Links</h4>
+                  <a href="https://github.com/JJHPhoto/writeandread" class="btn btn-info">Repo</a>
+                </div>
               </div>
             </div>
             <div class="col">
-              <img src="./assets/images/onefineday.jpg" alt="..." class="img-fluid">
-              <p class="description">One Fine Day
-                <br>
-                LocalStorage...
-              </p>
-              <div class="text-center" id="minorProjects">
-                <a href="https://github.com/JJHPhoto/onefineday" class="btn btn-info">Live Site</a>
+              <div class="card">
+                <img src="./assets/images/onefineday-banner.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">My first assignment using local storage. We were told to use local storage to create a day planner. The user would be able to add any upcoming event in their schedule. The application showed the user with colors what was past, present and future.</p>
+                  <h4>Project Links</h4>
+                  <a href="https://github.com/JJHPhoto/onefineday" class="btn btn-info">Live Site</a>
                 <a href="https://jjhphoto.github.io/onefineday/" class="btn btn-info">Repo</a>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
         <!--Footer -->
         <div class="container">
           <div class="col" id="contact">
-            <h3 class="text-center">Contact Me</h3>
+            <h3 class="conatctMe">Contact Me</h3>
           </div>
           <div class="col">
             <div id="minorProjects">
