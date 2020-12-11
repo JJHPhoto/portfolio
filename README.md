@@ -23,3 +23,8 @@ The last bit was to make sure my Github and LinkedIn were up to date. I'm hesita
 [Boostrap](https://getbootstrap.com/)
 
 [Clickup](https://clickup.com/?noRedirect=true)
+
+## Screenshot and GIF
+
+![Webpage](./assets/images/portfolioScreenShot.jpg)
+![](mobiledesign.gif)
