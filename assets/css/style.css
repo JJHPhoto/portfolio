@@ -37,8 +37,54 @@
   color: teal
 }
 
+.project-2 {
+  margin-top: 1em;
+  color: #9c77fb
+}
+
 #minorProjects {
   line-height: 2.5em;
+}
+
+/* Changing button colors */
+.btn-success {
+  background-color: #9c77fb;
+  color: white
+}
+
+.btn-info {
+  background-color: #36d1b2;
+  color: white
+}
+
+.btn-danger {
+  background-color: #003a76;
+  color: white
+}
+
+.btn-warning {
+  background-color: #026387;
+  color: white
+}
+
+.btn-primary {
+  background-color: #794c24;
+  color: white
+}
+
+.btn-light {
+  background-color: #736357;
+  color: white
+}
+
+.btn-dark {
+  background-color: #06224b;
+  color: white
+}
+
+/* Adding some space around boxes */
+.padding {
+  padding: 1em;
 }
 
 /* redo */
