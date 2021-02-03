@@ -34,12 +34,12 @@
 /* Adding style to my text */
 .description {
   margin-top: 1em;
-  color: teal
+  /* color: teal */
 }
 
 .project-2 {
   margin-top: 1em;
-  color: #9c77fb
+  /* color: #9c77fb */
 }
 
 #minorProjects {
