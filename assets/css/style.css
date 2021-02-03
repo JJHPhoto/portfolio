@@ -47,7 +47,7 @@
 }
 
 /* Changing button colors */
-/* .btn-success {
+.btn-success {
   background-color: #9c77fb;
   color: white
 }
@@ -80,7 +80,7 @@
 .btn-dark {
   background-color: #06224b;
   color: white
-} */
+}
 
 /* Adding some space around boxes */
 .padding {
